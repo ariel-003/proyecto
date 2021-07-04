@@ -1,0 +1,69 @@
+body{
+	font-family: $font-family;
+}
+.navbar{
+	background-image: $color;
+}
+.navbar .nav-link{
+	color: $color2;
+	font-size: $font-size;
+}
+.container{
+	display: $boxes;
+	align-items: strech;
+}
+.col-12{
+	max-width: 30%;
+}
+#dropdownMenuLink{
+	color: color3;
+	background-image: $color;
+}
+.dropdown-menu.show{
+	background-image: $color;
+}
+.dropdown-item{
+	color: $color3;
+}
+h2{
+	font-size: $font-size2;
+  	text-align: $text-align;
+  	color: $color2;
+}
+h5{
+	color:$color2;
+	display: $boxes1;
+	font-size: $font-size3;
+	padding: $padding;
+	align-content: $align-content;
+	font-weight:$font-bold;
+	font-size:$font-size5;
+	text-shadow: $text-shadow $color3;
+}
+p{
+	padding: $padding2;
+	font-size: $font-size5;
+	font-weight:$font-normal;
+}
+.table{
+	background-image: $color;
+}
+.card-text{
+	padding: $padding2*2;
+	font-size: $font-size;
+}
+.btn-primary {
+    color: $color2;
+    background-color: $color4;
+    border-color: $color5;
+}
+.whatsapp{
+	width: $width;
+	position: $position;
+	bottom: 10px;
+	right: 50px;
+}
+.whatsappPink{
+	width: $width*10;
+	height: $right;
+}

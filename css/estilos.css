@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,100&display=swap");
+/* line 1, ../../sass/scss/_main.scss */
+body {
+  font-family: "Raleway", sans-serif;
+}
+.home{
+      background: url('../media/home-bg6.jpg')no-repeat;
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-size: auto;
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+    padding-bottom: 100px;
+}
+.d-flex{
+  opacity: 0.8;
+}
+/* line 4, ../../sass/scss/_main.scss */
+.navbar {
+  background-image: linear-gradient(#ee9ca7, #ffdde1);
+}
+
+/* line 7, ../../sass/scss/_main.scss */
+.navbar .nav-link {
+  color: #000;
+  font-size: 20px;
+}
+/* line 11, ../../sass/scss/_main.scss */
+.container {
+  display: flex;
+  align-items: strech;
+}
+
+/* line 15, ../../sass/scss/_main.scss */
+.col-12 {
+  max-width: 30%;
+}
+
+/* line 18, ../../sass/scss/_main.scss */
+#dropdownMenuLink {
+  color: color3;
+  background-image: linear-gradient(#ee9ca7, #ffdde1);
+}
+
+/* line 22, ../../sass/scss/_main.scss */
+.dropdown-menu.show {
+  background-image: linear-gradient(#ee9ca7, #ffdde1);
+}
+
+/* line 25, ../../sass/scss/_main.scss */
+.dropdown-item {
+  color: #fff;
+}
+/* line 28, ../../sass/scss/_main.scss */
+h2 {
+  font-size: 50px;
+  text-align: center;
+  color: #000;
+}
+
+/* line 33, ../../sass/scss/_main.scss */
+h1 {
+  color: #000;
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  align-content: center;
+  font-weight: 700;
+  font-size: 50px;
+  text-shadow: 4px 4px 4px #fff;
+}
+strong{
+  font-size: 82px;
+}
+
+/* line 43, ../../sass/scss/_main.scss */
+p {
+  padding: 10px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+/* line 48, ../../sass/scss/_main.scss */
+.table {
+  background-image: linear-gradient(#ee9ca7, #ffdde1);
+}
+
+/* line 51, ../../sass/scss/_main.scss */
+.card-text {
+  padding: 20px;
+  font-size: 20px;
+}
+
+/* line 55, ../../sass/scss/_main.scss */
+.btn-primary {
+  color: #000;
+  background-color: #ee9ca7;
+  border-color: #007bff;
+}
+
+/* line 60, ../../sass/scss/_main.scss */
+.whatsapp {
+  width: 5px;
+  position: fixed;
+  bottom: 10px;
+  right: 50px;
+}
+
+/* line 66, ../../sass/scss/_main.scss */
+.whatsappPink {
+  width: 50px;
+  height: 50px;
+}
+.footer{
+  font-size: 26px;
+  width: 100%;
+  text-decoration: none;
+  height: 60px;
+  line-height: 20px;
+  text-align: center;
+  background-color: #fff;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+}
+.navbar-fixed-bottom{
+  background-image: linear-gradient(#ee9ca7, #ffdde1);
+  min-height: 80px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 86px;
+}
+  
+.social-icons {
+  padding: 0;
+  margin: 0;
+}
+.social-icons li {
+
+  display: inline-block;
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.social-icons li a {
+  text-decoration: none;
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.social-icons li a:hover {
+  background: #ff7592;
+  color: #ffffff;
+
+}
+.redes{
+  max-width: 36px;
+}
+.col-md-12{
+  position: relative;
+  width: 100%;
+  height: 160px;
+}
+/*# sourceMappingURL=estilos.css.map */
