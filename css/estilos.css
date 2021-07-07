@@ -37,21 +37,21 @@ body {
   max-width: 30%;
 }
 
-/* line 18, ../../sass/scss/_main.scss */
+/* line 18, ../../sass/scss/_main.scss 
 #dropdownMenuLink {
   color: color3;
   background-image: linear-gradient(#ee9ca7, #ffdde1);
 }
 
-/* line 22, ../../sass/scss/_main.scss */
+ line 22, ../../sass/scss/_main.scss 
 .dropdown-menu.show {
   background-image: linear-gradient(#ee9ca7, #ffdde1);
 }
 
-/* line 25, ../../sass/scss/_main.scss */
+ line 25, ../../sass/scss/_main.scss 
 .dropdown-item {
   color: #fff;
-}
+}*/
 /* line 28, ../../sass/scss/_main.scss */
 h2 {
   font-size: 50px;
