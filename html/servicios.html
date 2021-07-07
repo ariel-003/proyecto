@@ -10,26 +10,29 @@
     <link rel="stylesheet" type="text/css" href="../css/estilos.css">
 </head>
 <body>
-	<div>
-		<div class="container-fluid px-0">
-		<nav class="navbar navbar-expand-lg navbar-light bg-light px-0">
-	          <a class="navbar-brand" href="index.html">
-	              <img src="../media/logo.png" alt="Logo">
-	          </a>
-	            <div class="dropdown">
-	              <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-	               Servicios
-	              </a>
-	            </div>
-	              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-	                <a class="dropdown-item" href="inicio.htm">Inicio</a>
-	                <a class="dropdown-item" href="cursos.html">Cursos</a>
-	                <a class="dropdown-item" href="turnos.html">Turnos</a>
-	              </div>
-	    </nav>
-	    <div class="home">
+	<div class="home">
+	<div class="container-fluid px-0">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <img src="../media/logo.png" alt="logo">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="inicio.htm">Inicio<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="servicios.htm">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cursos.html">Cursos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="turnos.html">Turnos</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 			<div>
-				<h2 class="servicios">Servicios</h2>
+				<h2 class="servicios"><em>Servicios</em></h2>
 			</div>
 
 			<div class="container">
@@ -88,8 +91,8 @@
 		    </div>
 	  	</div>
 	  	</div>
-		<script src="../bootstrap/js/jquery-3.5.1.slim.min.js"></script>
-	    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
-    </div>
+	</div>
+	<script src="../bootstrap/js/jquery-3.5.1.slim.min.js"></script>
+	<script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
