@@ -19,12 +19,16 @@ body {
 /* line 4, ../../sass/scss/_main.scss */
 .navbar {
   background-image: linear-gradient(#ee9ca7, #ffdde1);
+  max-height: 65px;
 }
 
 /* line 7, ../../sass/scss/_main.scss */
 .navbar .nav-link {
   color: #000;
   font-size: 20px;
+}
+.nav-item{
+    padding: 110px;
 }
 /* line 11, ../../sass/scss/_main.scss */
 .container {
