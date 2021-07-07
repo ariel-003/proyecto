@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,100&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,100;1,400&display=swap');
 /* line 1, ../../sass/scss/_main.scss */
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .home{
       background: url('../media/home-bg6.jpg')no-repeat;
@@ -58,11 +58,19 @@ body {
 }*/
 /* line 28, ../../sass/scss/_main.scss */
 h2 {
-  font-size: 50px;
+  font-size: 60px;
+  font-style: 500;
   text-align: center;
   color: #000;
 }
-
+h5{
+  font-size: 18px;
+  font-style: 400;
+  text-align: center;
+  color: #000;
+  border: 2px #ccc solid;
+  background-color: #ee9ca7;
+}
 /* line 33, ../../sass/scss/_main.scss */
 h1 {
   color: #000;
@@ -72,9 +80,6 @@ h1 {
   font-weight: 700;
   font-size: 50px;
   text-shadow: 4px 4px 4px #fff;
-}
-strong{
-  font-size: 82px;
 }
 
 /* line 43, ../../sass/scss/_main.scss */
