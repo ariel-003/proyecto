@@ -72,13 +72,31 @@ h2 {
   font-style: 500;
   text-align: center;
   color: #000;
+  margin-top: 50px;
+}
+.container{
+  margin-top: 50px;
+}
+.turnos{
+  margin-top: 30px;
+}
+
+textarea{
+  resize: none;
+  min-width: 100%;
+}
+.table{
+  margin-top: 50px;
+}
+.table-hover tbody tr:hover {
+  background-color: #fff;
 }
 h5{
-  font-size: 87px;
-  font-style: 400;
+  font-size: 20px;
   text-align: center;
   color: #000;
-  position: absolute;
+  border: 2px #000 solid;
+  background-color: #ee9ca7;
 }
 /* line 33, ../../sass/scss/_main.scss */
 h1 {
