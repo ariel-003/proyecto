@@ -112,7 +112,7 @@ h1 {
 /* line 43, ../../sass/scss/_main.scss */
 p {
   padding: 10px;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 500;
 }
 
@@ -133,7 +133,10 @@ p {
   background-color: #ee9ca7;
   border-color: #007bff;
 }
-
+.mapa{
+  width: 50%;
+  padding: 20px;
+}
 /* line 60, ../../sass/scss/_main.scss */
 .whatsapp {
   width: 5px;
