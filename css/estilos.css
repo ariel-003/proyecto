@@ -132,6 +132,7 @@ p {
   height: 50px;
 }
 .footer{
+  font-size: 26px;
   width: 100%;
   text-decoration: none;
   height: 60px;
@@ -272,7 +273,7 @@ p {
 }
 .imagen-portada{
   background-image: url("../media/portada.jpg");
-  height: 200vh;
+  height: 190vh;
   background-position: center;
   background-repeat: no-repeat;
   margin-top: -50px;
