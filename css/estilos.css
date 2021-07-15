@@ -186,7 +186,7 @@ p {
 }
 .contacto{
   width: 50%;
-}
+}*/
 .col-md-12{
   position: relative;
   width: 100%;
@@ -278,7 +278,7 @@ p {
   background-repeat: no-repeat;
   margin-top: -50px;
 }
-.btn-primary:hover {
+.btn-primary:hover{
     color: #fff;
     background-color: #161717;
     border-color: #161717;
