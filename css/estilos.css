@@ -2,6 +2,7 @@
 /* line 1, ../../sass/scss/_main.scss */
 body {
   font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
 }
 .home{
     background: url('../media/home-bg6.jpg')no-repeat;
@@ -114,7 +115,7 @@ p {
   background-color: #ee9ca7;
   border-color: #007bff;
 }
-.mapa{
+/*.mapa{
   width: 50%;
   margin-left: 280px;
 }
@@ -186,7 +187,7 @@ p {
 }
 .contacto{
   width: 50%;
-}*/
+}
 .col-md-12{
   position: relative;
   width: 100%;
