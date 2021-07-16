@@ -2,6 +2,7 @@
 /* line 1, ../../sass/scss/_main.scss */
 body {
   font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
 }
 .home{
     background: url('../media/home-bg6.jpg')no-repeat;
