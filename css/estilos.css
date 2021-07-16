@@ -184,9 +184,7 @@ p {
 .redes{
   max-width: 36px;
 }
-.contacto{
-  width: 50%;
-}
+
 .col-md-12{
   position: relative;
   width: 100%;
@@ -273,8 +271,13 @@ p {
 }
 .imagen-portada{
   background-image: url("../media/portada.jpg");
-  height: 200vh;
+  height: 150vh;
   background-position: center;
   background-repeat: no-repeat;
   margin-top: -50px;
+}
+.contacto{
+  width: 92%;
+  display: flex;
+  justify-content: space-between;
 }
