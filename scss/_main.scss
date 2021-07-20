@@ -76,7 +76,7 @@ h1{
   padding: $padding2;
   align-content: $align-content;
   font-weight: $font-weight;
-  font-size: $font-size;
+  font-size: $font-size2;
   text-shadow: $text-shadow;
 }
 @media all and (max-width: $max-width) {
@@ -86,7 +86,7 @@ h1{
   padding: $padding2;
   align-content: $align-content;
   font-weight: $font-weight;
-  font-size: $font-size2;
+  font-size: $font-size8;
   text-shadow: $text-shadow;
   }
 }
@@ -109,6 +109,7 @@ p {
   font-size: $font-size4;
   font-weight: $font-weight;
 }
+
 .container {
   display: $display;
   align-items: $align-items;
@@ -251,7 +252,7 @@ textarea{
 
 .social-icons li a {
   text-decoration: $text-decoration;
-  font-size: $font-size3/2;
+  font-size: $margin-top8;
   width: $width6;
   height: $width6;
   line-height: $width6;
@@ -269,6 +270,11 @@ textarea{
   width: $width/2;
   padding: $font-size4;
 }
+@media all and (max-width: $max-width ){
+	iframe{
+		display: none;
+	}
+}
 @media all and (max-width: $max-width){
   .contacto{
     width:$width7;
@@ -283,8 +289,8 @@ textarea{
   }
 }
 .footer{
-  width: $width
-  text-decoration:$text-decoration;
+  width: $width;
+  text-decoration:$resize;
   height: $height3;
   line-height: $line-height;
   text-align: $text-align;
@@ -293,4 +299,9 @@ textarea{
   -webkit-transition: $transition;
   -moz-transition: $transition;
   -ms-transition: $transition;
+}
+@media all and (max-width: $max-width){
+	.footer{
+		margin-top: $margin-footer;
+	}
 }
