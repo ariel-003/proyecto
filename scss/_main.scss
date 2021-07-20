@@ -1,69 +1,296 @@
 body{
 	font-family: $font-family;
+	overflow-x: $overflow-x;
 }
-.navbar{
-	background-image: $color;
+.home{
+	background: $background;
+      background-position-x: $background-position-x;
+      background-position-y: $background-position-y;
+      background-size: $background-size;
+    background-size: $background-size2;
+    background-position: $background-position;
+    min-height: $min-height;
+    padding-bottom: $padding-bottom;
 }
-.navbar .nav-link{
-	color: $color2;
-	font-size: $font-size;
+.logo{
+  max-height: $max-height2;
 }
-.container{
-	display: $boxes;
-	align-items: strech;
+.text-center{
+  margin-top: $margin-top;
+  margin-left: $margin-left;
 }
-.col-12{
-	max-width: 30%;
+.navbar {
+  background-image: $background-image;
+  max-height: $max-height3;
 }
-#dropdownMenuLink{
-	color: color3;
-	background-image: $color;
+.navbar .nav-link {
+  color: $color;
+  font-size: $font-size;
 }
-.dropdown-menu.show{
-	background-image: $color;
+.navbar-fixed-bottom{
+  background-image: $background-image;
+  min-height: $min-height2;
+  display: $display2;
+  flex-direction: $flex-direction;
+  flex-wrap: $flex-wrap;
+  justify-content: $justify-content;
+  align-items: $align-content;
+  margin-top: $margin-top4;
 }
-.dropdown-item{
-	color: $color3;
+.navbar-collapse{
+    width: $width;
+    left: $left;
+    text-align: $align-content;
+    margin: $margin;
+}
+.nav-link:hover {
+    background-color: $background-color2;
+}
+.nav-item{
+    padding: $padding;
+    margin-right: $margin-right;
+    background-image: $background-image;
+}
+.nav-item:hover{
+  border-color: $border-color;
+}
+.imagen-portada{
+  background-image: $background-image2;
+  height: $height;
+  background-position: $background-position;
+  background-repeat: $background-repeat;
+  margin-top: $margin-top5;
+}
+@media all and (max-width: $max-width) {
+  .imagen-portada{
+  background-image: $background-image3;
+  height: $height2;
+  background-position: $background-position;
+  background-repeat: $background-repeat;
+  margin-top: $margin-top;
+  }
+}
+h1{
+  color: $color;
+  display: $display;
+  padding: $padding2;
+  align-content: $align-content;
+  font-weight: $font-weight;
+  font-size: $font-size;
+  text-shadow: $text-shadow;
+}
+@media all and (max-width: $max-width) {
+  h1{
+  color: $color;
+  display: $display;
+  padding: $padding2;
+  align-content: $align-content;
+  font-weight: $font-weight;
+  font-size: $font-size2;
+  text-shadow: $text-shadow;
+  }
 }
 h2{
-	font-size: $font-size2;
-  	text-align: $text-align;
-  	color: $color2;
+  font-size: $font-size3;
+  font-style: $font-style;
+  text-align: $text-align;
+  color: $color;
+  margin-top: $margin-top2;
 }
 h5{
-	color:$color2;
-	display: $boxes1;
-	font-size: $font-size3;
-	padding: $padding;
-	align-content: $align-content;
-	font-weight:$font-bold;
-	font-size:$font-size5;
-	text-shadow: $text-shadow $color3;
+  font-size: $font-size4;
+  text-align: $text-align;
+  color: $color;
+  border: $border;
+  background-color: $background-color;
 }
-p{
-	padding: $padding2;
-	font-size: $font-size5;
-	font-weight:$font-normal;
+p {
+  padding: $padding3;
+  font-size: $font-size4;
+  font-weight: $font-weight;
+}
+.container {
+  display: $display;
+  align-items: $align-items;
+  margin-top: $margin-top3;
+  margin-right: $margin-right2;
+}
+.col-12 {
+  max-width: $max-width3;
+}
+.col-md-12{
+  position: $position;
+  width: $width;
+  height: $height2;
+}
+.turnos{
+  margin-top: $margin-top8;
+}
+textarea{
+  resize: $resize;
+  min-width: $min-width;
 }
 .table{
-	background-image: $color;
+  margin-top: $margin-top2;
+  background-image:$background-image;
+}
+.table-hover tbody tr:hover{
+  background-color: $background-color2;
 }
 .card-text{
-	padding: $padding2*2;
-	font-size: $font-size;
+  padding: $padding4;
+  font-size: $font-size3;
 }
-.btn-primary {
+#advanced-search-form{
+    background-image: $background-image;
+    max-width: $max-width2;
+    margin: $margin2;
+    padding: $padding5;
     color: $color2;
-    background-color: $color4;
-    border-color: $color5;
+    box-shadow: $box-shadow;
 }
-.whatsapp{
-	width: $width;
-	position: $position;
-	bottom: 10px;
-	right: 50px;
+
+#advanced-search-form h2{
+    padding-bottom: $padding-bottom;
+    margin: $margin3;
+    font-size: $font-size5;
 }
-.whatsappPink{
-	width: $width*10;
-	height: $right;
+
+#advanced-search-form hr{
+    margin-top: $margin-top6;
+    margin-bottom: $margin-bottom;
+    margin-left: $margin-left2;
+    border: $border2;
+
+}
+
+#advanced-search-form .form-group{
+  	margin-bottom: $margin-bottom2;
+  	margin-left:$margin-bottom2;
+  	width: $width2;
+    float:$float;
+    text-align: $float;
+}
+
+#advanced-search-form .form-control{
+    padding: $padding6;
+    height: $height4;
+    border-radius: $border-radius;
+}
+
+#advanced-search-form .radio-inline{
+    margin-left: $margin-left3;
+    margin-right: $margin-left2;
+}
+
+#advanced-search-form .gender{
+    width: $max-width2;
+    margin-top: $margin-top4;
+    padding-left: $padding4;
+    padding-top: $padding-top;
+    padding-bottom: $padding-top;
+}
+
+#advanced-search-form .btn{
+    width: $width3;
+    margin: $margin4;
+    display: $display3;
+    outline: $text-decoration;
+    background-color:  $background-color;
+}
+@media screen and (max-width: $max-width2){
+    #advanced-search-form .form-group{
+        width: $width4;
+    }
+
+    #advanced-search-form{
+        margin-top: $left;
+    }
+}
+
+@media screen and (max-width: $max-width4){
+    #advanced-search-form .form-group{
+        width: $width;
+        margin-left: $left;
+    }
+
+    #advanced-search-form h2{
+        text-align: $text-align;
+    }
+}
+@media all and (max-width: $max-width){
+.card-group > .card {
+    margin-top: $margin-top7; 
+  }
+}
+.btn-primary{
+  color: $color;
+  background-color: $background-color;
+  border-color: $border-color;
+}
+.btn-primary:hover{
+    color: $color;
+    background-color: $background-color3;
+    border-color: $border-color2;
+}
+.contacto{
+  width: $width5;
+  display: $display2;
+  justify-content: $justify-content;
+}
+.social-icons{
+  padding: $left;
+  margin: $left;
+}
+.social-icons li {
+
+  display: $display4;
+  list-style: $text-decoration;
+  margin-bottom: $margin-left2;
+}
+
+.social-icons li a {
+  text-decoration: $text-decoration;
+  font-size: $font-size3/2;
+  width: $width6;
+  height: $width6;
+  line-height: $width6;
+  text-align: $text-align;
+  vertical-align: $vertical-align;
+  margin-right: $margin-left2;
+}
+.social-icons li a:hover {
+  background-color: $background-color4;
+  color: $color4;
+
+}
+
+.mapa{
+  width: $width/2;
+  padding: $font-size4;
+}
+@media all and (max-width: $max-width){
+  .contacto{
+    width:$width7;
+    height:$height8;
+    position:$position4;
+  }
+  .mapa{
+   	width:$widthMapa;
+    height: $heightMapa;
+    position: $positionMapa;
+    top: $widthMapa;
+  }
+}
+.footer{
+  width: $width
+  text-decoration:$text-decoration;
+  height: $height3;
+  line-height: $line-height;
+  text-align: $text-align;
+  background-color: $background-color2;
+  transition: $transition;
+  -webkit-transition: $transition;
+  -moz-transition: $transition;
+  -ms-transition: $transition;
 }
