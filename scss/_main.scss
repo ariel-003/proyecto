@@ -42,13 +42,15 @@ body{
     left: $left;
     text-align: $align-content;
     margin: $margin;
+    position: $positionNav;
+	z-index: $z-index;
 }
 .nav-link:hover {
     background-color: $background-color2;
 }
 .nav-item{
     padding: $padding;
-    margin-right: $margin-right;
+    margin-right: $margin-rightNav;
     background-image: $background-image;
 }
 .nav-item:hover{
@@ -69,6 +71,11 @@ body{
   background-repeat: $background-repeat;
   margin-top: $margin-top;
   }
+}
+@media all and (max-width: $max-width){
+	.row{
+		margin-top: $margin-topRow;
+	}
 }
 h1{
   color: $color;
@@ -149,6 +156,7 @@ textarea{
     padding: $padding5;
     color: $color2;
     box-shadow: $box-shadow;
+    margin-top: $margin-right2;
 }
 
 #advanced-search-form h2{
@@ -234,6 +242,11 @@ textarea{
     background-color: $background-color3;
     border-color: $border-color2;
 }
+@media all and (max-width: $max-width ){
+	.curso{
+		visibility: $overflow-x;
+	}
+}
 .contacto{
   width: $width5;
   display: $display2;
@@ -272,7 +285,7 @@ textarea{
 }
 @media all and (max-width: $max-width ){
 	iframe{
-		display: none;
+		display: $text-decoration;
 	}
 }
 @media all and (max-width: $max-width){
@@ -280,12 +293,7 @@ textarea{
     width:$width7;
     height:$height8;
     position:$position4;
-  }
-  .mapa{
-   	width:$widthMapa;
-    height: $heightMapa;
-    position: $positionMapa;
-    top: $widthMapa;
+    display:$displayContac;
   }
 }
 .footer{
