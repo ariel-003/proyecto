@@ -116,7 +116,10 @@ p {
   font-size: $font-size4;
   font-weight: $font-weight;
 }
-
+.trabajos{
+	margin-left: $margin-leftTrabajos;
+	margin-top: $max-height3;
+}
 .container {
   display: $display;
   align-items: $align-items;
