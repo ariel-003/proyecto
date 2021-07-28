@@ -1,6 +1,6 @@
 body{
 	font-family: $font-family;
-	overflow-x: $overflow-x;
+	overflow-x: hidden;
 }
 .home{
 	background: $background;
@@ -66,10 +66,10 @@ body{
 @media all and (max-width: $max-width) {
   .imagen-portada{
   background-image: $background-image3;
-  height: $height2;
+  height: 253px;
   background-position: $background-position;
   background-repeat: $background-repeat;
-  margin-top: $margin-top;
+  margin-top: 0px;
   }
 }
 @media all and (max-width: $max-width){
@@ -90,10 +90,10 @@ h1{
   h1{
   color: $color;
   display: $display;
-  padding: $padding2;
+  padding: 1em 1em;
   align-content: $align-content;
   font-weight: $font-weight;
-  font-size: $font-size8;
+  font-size: 56px;
   text-shadow: $text-shadow;
   }
 }
@@ -118,7 +118,7 @@ h5{
 }
 p {
   padding: $padding3;
-  font-size: $font-size4;
+  font-size: 20px;
   font-weight: $font-weight;
 }
 .trabajos{
