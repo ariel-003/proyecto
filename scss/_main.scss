@@ -104,6 +104,11 @@ h2{
   color: $color;
   margin-top: $margin-top2;
 }
+@media all and (max-width: $max-width){
+	h2{
+		font-size: 40px;
+	}
+}
 h5{
   font-size: $font-size4;
   text-align: $text-align;
@@ -119,6 +124,14 @@ p {
 .trabajos{
 	margin-left: $margin-leftTrabajos;
 	margin-top: $max-height3;
+}
+.trabajos img{
+	max-width: 400px;
+}
+@media all and (max-width: $max-width){
+	.trabajos{
+		margin-left: 100px;
+		}
 }
 .container {
   display: $display;
