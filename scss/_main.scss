@@ -3,25 +3,25 @@ body{
 	overflow-x: hidden;
 }
 .home{
-	background: $background;
-      background-position-x: $background-position-x;
-      background-position-y: $background-position-y;
-      background-size: $background-size;
-    background-size: $background-size2;
-    background-position: $background-position;
+	background: url('../media/home-bg6-2.jpg')no-repeat;
+      background-position-x: 0%;
+      background-position-y: 0%;
+      background-size: auto;;
+    background-size: cover;
+    background-position: center;
     min-height: $min-height;
-    padding-bottom: $padding-bottom;
+    padding-bottom: 100px;
 }
 .logo{
-  max-height: $max-height2;
+  max-height: 77px;
 }
 .text-center{
-  margin-top: $margin-top;
-  margin-left: $margin-left;
+  margin-top: 50px;
+  margin-left: 320px;
 }
 .navbar {
   background-image: $background-image;
-  max-height: $max-height3;
+  max-height: 90px;
 }
 .navbar .nav-link {
   color: $color;
@@ -29,62 +29,62 @@ body{
 }
 .navbar-fixed-bottom{
   background-image: $background-image;
-  min-height: $min-height2;
+  min-height: 77px;
   display: $display2;
-  flex-direction: $flex-direction;
-  flex-wrap: $flex-wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: $justify-content;
   align-items: $align-content;
-  margin-top: $margin-top4;
+  margin-top: 86px;
 }
 .navbar-collapse{
     width: $width;
-    left: $left;
+    left: 0;
     text-align: $align-content;
     margin: $margin;
-    position: $positionNav;
-	z-index: $z-index;
+    position: $position;
+	z-index: 2;
 }
 .nav-link:hover {
-    background-color: $background-color2;
+    background-color: #fff;
 }
 .nav-item{
     padding: $padding;
-    margin-right: $margin-rightNav;
+    margin-right: 0;
     background-image: $background-image;
 }
 .nav-item:hover{
   border-color: $border-color;
 }
 .imagen-portada{
-  background-image: $background-image2;
+  background-image: url("../media/portada2.jpg");
   height: $height;
-  background-position: $background-position;
-  background-repeat: $background-repeat;
-  margin-top: $margin-top5;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: -50px;
 }
 @media all and (max-width: $max-width) {
   .imagen-portada{
-  background-image: $background-image3;
+  background-image: url("../media/portada-mobile2.jpg");
   height: 253px;
-  background-position: $background-position;
-  background-repeat: $background-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
   margin-top: 0px;
   }
 }
 @media all and (max-width: $max-width){
 	.row{
-		margin-top: $margin-topRow;
+		margin-top: -210px;
 	}
 }
 h1{
   color: $color;
   display: $display;
-  padding: $padding2;
+  padding: 2em 2em;
   align-content: $align-content;
   font-weight: $font-weight;
   font-size: $font-size2;
-  text-shadow: $text-shadow;
+  text-shadow: 5px 5px 5px  #fff;
 }
 @media all and (max-width: $max-width) {
   h1{
@@ -94,7 +94,7 @@ h1{
   align-content: $align-content;
   font-weight: $font-weight;
   font-size: 56px;
-  text-shadow: $text-shadow;
+  text-shadow: 5px 5px 5px  #fff;
   }
 }
 h2{
@@ -102,7 +102,7 @@ h2{
   font-style: $font-style;
   text-align: $text-align;
   color: $color;
-  margin-top: $margin-top2;
+  margin-top: 50px;
 }
 @media all and (max-width: $max-width){
 	h2{
@@ -113,17 +113,17 @@ h5{
   font-size: $font-size4;
   text-align: $text-align;
   color: $color;
-  border: $border;
+  border: 2px #000 solid;
   background-color: $background-color;
 }
 p {
   padding: $padding3;
-  font-size: 20px;
+  font-size: 26px;
   font-weight: $font-weight;
 }
 .trabajos{
-	margin-left: $margin-leftTrabajos;
-	margin-top: $max-height3;
+	margin-left: 270px;
+	margin-top: 90px;
 }
 .trabajos img{
 	max-width: 400px;
@@ -136,116 +136,116 @@ p {
 .container {
   display: $display;
   align-items: $align-items;
-  margin-top: $margin-top3;
-  margin-right: $margin-right2;
+  margin-top: 61px;
+  margin-right: 50px;
 }
 .col-12 {
-  max-width: $max-width3;
+  max-width: 30%;
 }
 .col-md-12{
   position: $position;
   width: $width;
-  height: $height2;
+  height: 30vh;
 }
 .turnos{
-  margin-top: $margin-top8;
+  margin-top: 30px;
 }
 textarea{
-  resize: $resize;
+  resize: none;
   min-width: $min-width;
 }
 .table{
-  margin-top: $margin-top2;
+  margin-top: 50px;
   background-image:$background-image;
 }
 .table-hover tbody tr:hover{
   background-color: $background-color2;
 }
 .card-text{
-  padding: $padding4;
+  padding: 20px;
   font-size: $font-size3;
 }
 #advanced-search-form{
     background-image: $background-image;
-    max-width: $max-width2;
-    margin: $margin2;
-    padding: $padding5;
+    max-width: 800px;
+    margin: 160px auto 0;
+    padding: 40px;
     color: $color2;
-    box-shadow: $box-shadow;
-    margin-top: $margin-right2;
+    box-shadow: 6px 6px 6px rgba(0,0,0,0.2);
+    margin-top: 50px;
 }
 
 #advanced-search-form h2{
-    padding-bottom: $padding-bottom;
-    margin: $margin3;
+    padding-bottom: 20px;
+    margin: 10px 20px;
     font-size: $font-size5;
 }
 
 #advanced-search-form hr{
-    margin-top: $margin-top6;
-    margin-bottom: $margin-bottom;
-    margin-left: $margin-left2;
-    border: $border2;
+    margin-top: 38px;
+    margin-bottom: 54px;
+    margin-left: 10px;
+    border: 1px solid #cccccc;
 
 }
 
 #advanced-search-form .form-group{
-  	margin-bottom: $margin-bottom2;
-  	margin-left:$margin-bottom2;
-  	width: $width2;
-    float:$float;
-    text-align: $float;
+  	margin-bottom: 20px;
+  	margin-left: 20px;
+  	width: 30%;
+    float: left;
+    text-align:left;
 }
 
 #advanced-search-form .form-control{
-    padding: $padding6;
-    height: $height4;
-    border-radius: $border-radius;
+    padding: 12px 20px;
+    height: auto;
+    border-radius: 2px;
 }
 
 #advanced-search-form .radio-inline{
-    margin-left: $margin-left3;
-    margin-right: $margin-left2;
+    margin-left: 3px;
+    margin-right: 10px;
 }
 
 #advanced-search-form .gender{
-    width: $max-width2;
-    margin-top: $margin-top4;
-    padding-left: $padding4;
+    width: 800px;
+    margin-top: 86px;
+    padding-left: 20px;
     padding-top: $padding-top;
     padding-bottom: $padding-top;
 }
 
 #advanced-search-form .btn{
-    width: $width3;
-    margin: $margin4;
-    display: $display3;
-    outline: $text-decoration;
+    width: 46%;
+    margin: 20px auto 0;
+    display: block;
+    outline: none;
     background-color:  $background-color;
 }
-@media screen and (max-width: $max-width2){
+@media screen and (max-width: 360px){
     #advanced-search-form .form-group{
-        width: $width4;
+        width: 45%;
     }
 
     #advanced-search-form{
-        margin-top: $left;
+        margin-top: 0;
     }
 }
 
-@media screen and (max-width: $max-width4){
+@media screen and (max-width: 560px){
     #advanced-search-form .form-group{
         width: $width;
-        margin-left: $left;
+        margin-left: 0;
     }
 
     #advanced-search-form h2{
-        text-align: $text-align;
+        text-align: center;
     }
 }
 @media all and (max-width: $max-width){
 .card-group > .card {
-    margin-top: $margin-top7; 
+    margin-top: 180px; 
   }
 }
 .btn-primary{
@@ -260,34 +260,34 @@ textarea{
 }
 @media all and (max-width: $max-width ){
 	.curso{
-		visibility: $overflow-x;
+		visibility: hidden;
 	}
 }
 .contacto{
-  width: $width5;
+  width: 92%;
   display: $display2;
   justify-content: $justify-content;
 }
 .social-icons{
-  padding: $left;
-  margin: $left;
+  padding: 0;
+  margin: 0;
 }
 .social-icons li {
 
   display: $display4;
   list-style: $text-decoration;
-  margin-bottom: $margin-left2;
+  margin-bottom: 10px;
 }
 
 .social-icons li a {
   text-decoration: $text-decoration;
   font-size: $margin-top8;
-  width: $width6;
-  height: $width6;
-  line-height: $width6;
-  text-align: $text-align;
-  vertical-align: $vertical-align;
-  margin-right: $margin-left2;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: middle;
+  vertical-align: middle;
+  margin-right: 10px;
 }
 .social-icons li a:hover {
   background-color: $background-color4;
@@ -301,21 +301,21 @@ textarea{
 }
 @media all and (max-width: $max-width ){
 	iframe{
-		display: $text-decoration;
+		display: none;
 	}
 }
 @media all and (max-width: $max-width){
   .contacto{
-    width:$width7;
-    height:$height8;
-    position:$position4;
-    display:$displayContac;
+    width:70%;
+    height:300px;
+    position:absolute;
+    display:block;
   }
 }
 .footer{
   width: $width;
-  text-decoration:$resize;
-  height: $height3;
+  text-decoration:none;
+  height: 60px;
   line-height: $line-height;
   text-align: $text-align;
   background-color: $background-color2;
@@ -326,6 +326,6 @@ textarea{
 }
 @media all and (max-width: $max-width){
 	.footer{
-		margin-top: $margin-footer;
+		margin-top: 318px;
 	}
 }
